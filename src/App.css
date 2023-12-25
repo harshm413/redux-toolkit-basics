@@ -1,0 +1,137 @@
+/* App.css */
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    font-size: 18px;
+}
+
+/* App Container */
+.App {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+/* Left and Right Half Layout */
+.left-half,
+.right-half {
+    width: 45%;
+}
+
+/* Form Cards */
+.form-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Personal, Contact, and Interest Cards */
+.personal-info-card,
+.contact-info-card,
+.interest-info-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    color: #555;
+    width: 45%;
+    margin-bottom: 8px;
+}
+
+.long-info {
+    display: block;
+    color: #555;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+/* Input Styles */
+input {
+    width: calc(100% - 20px); /* Adjusted to ensure equal space on both sides */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+/* Checkbox Styles */
+.checkbox-inline {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+
+/* Add this CSS to your existing styles or create a new stylesheet */
+
+.input-and-label {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-bottom: 10px; /* Adjust spacing between each input-and-label pair */
+}
+
+.input-and-label input {
+    display: flex;
+    vertical-align: middle;
+    margin-right: 8px; /* Adjust spacing between the checkbox and label */
+}
+
+/* Array Element Styles */
+.array-box {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.array-item {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 5px 10px;
+    margin-right: 15px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+/* Additional Styling */
+.right-half {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Row Styles */
+
+.row-two,
+.row-three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-two input,
+.row-three input {
+    width: calc(98% - 20px); /* Adjusted to ensure equal space on both sides */
+    margin-right: 10px;
+}
